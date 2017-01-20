@@ -1,7 +1,16 @@
 # Github Trends
 
-[TODO. There will be project description]
+Скрипт выдаёт 20 самых интересных проектов гитхаба за последнюю неделю.
+----------------------------------------------------------------------------
 
-# Project Goals
+Установка:
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+    скачать скрипт и requirements.txt
+    pip install -r requirements.txt
+    
+
+----------
+
+Запуск:
+
+    python github_trending.py
