@@ -18,9 +18,10 @@ def print_trending_repositories(trending_repositories):
     print("Самые популярные репозитории за неделю :")
     for repo in trending_repositories:
         print(u'\nРепозиторий {}:\nЗвезд:{}; Открытых задач:{}'
-              '\nСсылка :{}'.format(repo['name'], repo['html_url'],
+              '\nСсылка :{}'.format(repo['name'],
                                     repo['stargazers_count'],
-                                    repo['open_issues_count']))
+                                    repo['open_issues_count'],
+                                    repo['html_url']))
 
 if __name__ == '__main__':
     trending_repositories = get_trending_repositories()
